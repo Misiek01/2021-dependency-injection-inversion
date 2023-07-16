@@ -65,3 +65,29 @@ Test how the class is created and init.
 # TODO 
 https://coverage.readthedocs.io/en/7.2.7/
 `coverage html`
+`coverage run test.py`
+`coverage html`
+check `index.html` in html reader.
+
+# Dependency Inversion 
+
+We create a layer between that allows us to separate 
+the payment process from 
+authorization 
+much clenanly.
+
+Beacuse the payment processor only calls two methods it does nto need to 
+know we are dealing with `AuthorizerSMS`.
+We can give him an abstract class, that will have the abstract methods it needs.
+
+# Coverage issue due to abstract class
+Beacuse we added this abstract class, we introduced two
+abstract methods which are not tested, which is true.
+On the other habd is useless to test those methods because they are abstract.
+
+Coeverage ingores the method to test 
+if we replace `pass` with doctring.
+
+# Dependency Inversion
+Is important, allows to separate Authorizer and Payment Processor, 
+do not need to know much about them selfes.
