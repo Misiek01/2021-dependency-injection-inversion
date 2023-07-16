@@ -1,7 +1,18 @@
 import unittest
 from io import StringIO
 from unittest.mock import patch
-from before import *
+from before import Authorizer_SMS, PaymentProcessor, Order
+
+class OrderTestCase(unittest.TestCase):
+    def test_init(self):
+        order = Order()
+        self.assertEqual(order.status, "open")
+
+    def test_set_status(self):
+        order = Order()
+        order.set_status("paid")
+        self.assertEqual(order.status, "paid")
+
 
 class Authorizer_SMS_TestCase(unittest.TestCase):
 
