@@ -9,7 +9,7 @@ Inheritance introduce the coupling that is hard to remove.
 
 # Dependency Injection
 `Dependency Injection` is a design pattern.
-The idea is that, 
+The idea is that,
 if the class uses an object of the certain type
 we are not making that class responsible for that object.
 `Because it shifts the responsibility of creating to another class`
@@ -17,7 +17,7 @@ we are not making that class responsible for that object.
 
 Big advanatge of dependency injeciton is that your code is much easier to test.
 
-# Dependency inversion 
+# Dependency inversion
 `Dependency inversion` is a prinicple in `SOLID` design principles.
 Decoupled concrete classes uses abstractions, abstract classes, interfaces etc.
 
@@ -31,26 +31,26 @@ Without `Dependency Injection` there is no `Dependency Inversion`.
 # before-test
 
 It is hard to test `PaymentProcessor` for success and fail,
-because it creates authoriser object, calls methods and 
-checks wheater is authorized or not. 
+because it creates authoriser object, calls methods and
+checks wheater is authorized or not.
 
 Problem is that
 the pay method is responsible for creating objects
-which means we can NOT create it in test, 
+which means we can NOT create it in test,
 sets to true and pass to the pay method.
 
-Unit test has a mock method that allows you 
-to mock object that are used in functions 
+Unit test has a mock method that allows you
+to mock object that are used in functions
 and replace that objects in those functions.
 IT IS HARD.
 
 That's where `DEPENDENCY INJECTION` pattern comes to play.
 
-Introduce dependency injection to 
-ehnace testability and later dependecy inversion. 
+Introduce dependency injection to
+ehnace testability and later dependecy inversion.
 
 We can introduce dependency in
-`parameter of the method` or 
+`parameter of the method` or
 `initializer in the class`.
 
 The advantage of the second is that we can use it in different places.

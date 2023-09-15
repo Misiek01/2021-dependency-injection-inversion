@@ -30,7 +30,7 @@ class PaymentProcessor:
 
     def __init__(self, authorizer: Authorizer_SMS):
         self.authorizer = authorizer
-    
+
     def pay(self, order):
         self.authorizer.authorize()
         if not self.authorizer.is_authorized():

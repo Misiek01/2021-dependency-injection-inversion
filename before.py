@@ -27,7 +27,7 @@ class Authorizer_SMS:
         return self.authorized
 
 class PaymentProcessor:
-    
+
     def pay(self, order):
         authorizer = Authorizer_SMS()
         authorizer.generate_sms_code()
