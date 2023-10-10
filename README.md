@@ -1,4 +1,10 @@
-# Dependency in object oriented programming
+## How to run pytest in VS Code
+
+[Pytest in VS Code](https://pytest-with-eric.com/introduction/how-to-run-pytest-in-vscode/)
+
+
+
+## Dependency in object oriented programming
 Object that class has a direct relationship with.
 Class and directed object type are coupled.
 Class could depend on another class, because it has an attribute of that type
@@ -6,8 +12,9 @@ or becauce object of that type is passed as a parameter to method,
 or because the class inherits.
 Inheritance introduce the coupling that is hard to remove.
 `Composition is always a better choice then inheritance`.
+[Composition and Inheritance](https://realpython.com/inheritance-composition-python/#composition-in-python)
 
-# Dependency Injection
+## Dependency Injection
 `Dependency Injection` is a design pattern.
 The idea is that,
 if the class uses an object of the certain type
@@ -17,7 +24,7 @@ we are not making that class responsible for that object.
 
 Big advanatge of dependency injeciton is that your code is much easier to test.
 
-# Dependency inversion
+## Dependency inversion
 `Dependency inversion` is a prinicple in `SOLID` design principles.
 Decoupled concrete classes uses abstractions, abstract classes, interfaces etc.
 
@@ -28,7 +35,7 @@ Without `Dependency Injection` there is no `Dependency Inversion`.
 
 
 
-# before-test
+## before-test
 
 It is hard to test `PaymentProcessor` for success and fail,
 because it creates authoriser object, calls methods and
