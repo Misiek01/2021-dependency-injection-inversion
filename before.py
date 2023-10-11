@@ -18,6 +18,7 @@ class Authorizer_SMS:
 
     def generate_sms_code(self):
         self.code = ''.join(random.choices(string.digits, k=6))
+        # self.code = random.choices(range(100), k=1)[0]
 
     def authorize(self):
         code = input("Enter SMS code: ")

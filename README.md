@@ -11,10 +11,12 @@ Install pytest.
 [Pytest in VS Code](https://pytest-with-eric.com/introduction/how-to-run-pytest-in-vscode/)
 
 ## Patch
-Go to `utils.py`. Explore the code.
+Go to `utils.py` (implementation of Task 2b). Explore the code.
 
 ## Task 2 Write test for get_ids method using patch.
 [Patch](https://realpython.com/python-mock-library/)
+Patching will be used for the function `utils.api_get_data_from_db` to return static value.
+
 
 ## Dependency in object oriented programming
 Object that class has a direct relationship with.
