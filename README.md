@@ -51,6 +51,7 @@ Without `Dependency Injection` there is no `Dependency Inversion`.
 
 ## before
 Go to file `before.py`.
+**Check** `test_authorizer.py` for scucess fail.
 
 ## Task 3 Create automated tests for classes in file before.py
 
@@ -92,12 +93,15 @@ Test how the class is created and init.
 ## Task 5: Check it out
 https://coverage.readthedocs.io/en/7.2.7/
 `coverage html`
+
 `coverage run test.py`
+
 `coverage html`
+
 check `index.html` in html reader.
 
 ## Dependency Inversion
-## Task 6: Explore the file final.py
+## Task 6: Explore the file final.py and write tests for PaymentProcessor with Authorizer_Robot.
 We create a layer between that allows us to separate
 the payment process from
 authorization
@@ -118,3 +122,21 @@ if we replace `pass` with doctring.
 ## Dependency Inversion
 Is important, allows to separate Authorizer and Payment Processor,
 do not need to know much about them selfs.
+
+
+## VCR
+
+**Configuration**
+https://vcrpy.readthedocs.io/en/latest/configuration.html
+
+### Task 7 Connect to the url and assert the response content.
+Convert the `bytes` content to `json`.
+
+[Decode and convert.](https://stackoverflow.com/questions/40059654/convert-a-bytes-array-into-json-format)
+
+Assert the first element `login` and `id`.
+
+Compare time with api response and without.
+
+Use the url `https://api.github.com/users/hadley/orgs`.
+

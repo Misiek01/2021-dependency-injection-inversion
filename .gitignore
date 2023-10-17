@@ -1,3 +1,6 @@
 venv/
 before-test.py
 final-test.py
+test_payment_processor.py
+test_final_payment_processor.py
+test_git_users.py

@@ -1,0 +1,93 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.github.com/users/hadley/orgs
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA63YXW+bOhgH8K9icbu0CRDoWqk6qs6yo12QqlUinW06qhzwiBPAyC/pyLTvfsyL
+        S9Jkio18USmC5/84JT+MzfdfTkZSXDh3TpqSFXZGDk6cu6nnh/7HkVOQBL3UB5zo06x63N5W37zP
+        Av5brpN/st1q81RF+6/7x4f7exkUNJOFa85LdjcewxJfp5ivxeo6JvmY0JSN1RAUlYS9aNaPm2rZ
+        H+1QwfVjbbnMrQnZ6sea6voyMCaQfqwtl7kc5StE9YNd/a9x++G3bFGKVYbjF9NOx7HDhnAHOaTv
+        L3hzkHU/kmCIxqTg8hI3v5cYtwb+2t1P5VdKEIspLjkmNRXn96h3QxkXCSadnMD1g3ByWc7yZ7Rf
+        epGunH4QXTtdwlyPChr7UUFjQSo4wJCK2lCkell21IrQcgR5c+fJ+ebG82784DKjuIo28X7+pDkB
+        yX+xHcNAkQwMQlTnhhiqc0MI1blhguqkJUB1K8t+Wgrn/BQiy45mIlKigsXqIeZ6k4kX3l5GNKui
+        Tw/VfLPVe4rRfhhtRl1kACSVNKekkuaYVHIIJ5W1Ako1s0yqk3HO1Ltn24YIWsCsm5V8358EoXtZ
+        VLSP9g/ufDPTFNUPoy2qiwwQpZLmolTSXJRKDhGlslZEqWaWRXUyzok6maWukrd1dhDeBmGo8Zxb
+        eo+LpTffLDVBdWNoa6rrB1BqYuaOmpg5oiY2RFATtMKn6WTZTofgnB3nGXwAiVynryBD7GjZ/fw3
+        KRihHIu8m53cwA9D17+5PD3NXLlt86JF5Mvo5W3Y8VC6pg5S5rIOw8a+DsPGyg7DA6wdxm2IO+xn
+        2Z3ychbeYo3AM+iNjcCXIgavkAEk19Byf8rWKAGcgJKSHU4QYKIsJcf6EG+yn4koJF25YwSwSJpm
+        eS4KzKsREAwXKcghLrj8qz/XJQlmnOKV4PWBZ8DID/4KKbo+cs9xUu3kBht16j1v4nvhNLys/otc
+        5kVymffkaak/HEjX/FvGXHwfNfbeR42199EB1vuwDel9N8vOlZA/On8bGWAGIIhJlqG4gUt+SIcl
+        jLcwRUy6hhywtSQpa/Jcni8pLmJcZvJkDbg+I9+U4LRo741XQrfyhkiRvCMoYAjmspJl1fH7k6sM
+        r94wh+7HG1cLs1xdTuf7mR5m2g2iC7mpN0fcxowBtzFjvG1sANw2aANt28k62FbBWbDn3r1doUTE
+        zVSrNipTNwwCHUfRJFp8decLXUfty76jAbVNvc8O8HXSwtzaSQtzdycthhg8aWLF40lXyzb9TtYf
+        bP73P7nDrz1RGAAA
+    headers:
+      Accept-Ranges:
+      - bytes
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '981'
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 17 Oct 2023 10:59:11 GMT
+      ETag:
+      - W/"73910b6c1ee723f9d33cef199ae2004b6ba456b17c6f97be4fe5c27270f9c231"
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Server:
+      - GitHub.com
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Vary:
+      - Accept, Accept-Encoding, Accept, X-Requested-With
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-GitHub-Media-Type:
+      - github.v3; format=json
+      X-GitHub-Request-Id:
+      - DD50:9B0F:25A44C0:260F58F:652E68FF
+      X-RateLimit-Limit:
+      - '60'
+      X-RateLimit-Remaining:
+      - '49'
+      X-RateLimit-Reset:
+      - '1697541608'
+      X-RateLimit-Resource:
+      - core
+      X-RateLimit-Used:
+      - '11'
+      X-XSS-Protection:
+      - '0'
+      x-github-api-version-selected:
+      - '2022-11-28'
+    status:
+      code: 200
+      message: OK
+version: 1
