@@ -371,8 +371,11 @@ interactions:
         class=\"give-me-more\"><a href=\"https://blog.python.org\" title=\"More News\">More</a></p>\n
         \                           \n                            <ul class=\"menu\">\n
         \                               \n                                \n                                <li>\n<time
-        datetime=\"2023-10-13T12:31:00.000004+00:00\"><span class=\"say-no-more\">2023-</span>10-13</time>\n
-        <a href=\"https://pythoninsider.blogspot.com/2023/10/python-3130-alpha-1-is-now-available.html\">Python
+        datetime=\"2023-10-17T18:00:00.000001+00:00\"><span class=\"say-no-more\">2023-</span>10-17</time>\n
+        <a href=\"https://pyfound.blogspot.com/2023/10/security-developer-in-residence-2023-q3-report.html\">Security
+        Developer-in-Residence 2023 Q3 Report</a></li>\n                                \n
+        \                               <li>\n<time datetime=\"2023-10-13T12:31:00.000004+00:00\"><span
+        class=\"say-no-more\">2023-</span>10-13</time>\n <a href=\"https://pythoninsider.blogspot.com/2023/10/python-3130-alpha-1-is-now-available.html\">Python
         3.13.0 alpha 1 is now available</a></li>\n                                \n
         \                               <li>\n<time datetime=\"2023-10-02T17:20:00+00:00\"><span
         class=\"say-no-more\">2023-</span>10-02</time>\n <a href=\"https://pythoninsider.blogspot.com/2023/10/python-3116-is-now-available.html\">Python
@@ -383,9 +386,6 @@ interactions:
         \                               <li>\n<time datetime=\"2023-09-27T15:44:00.000002+00:00\"><span
         class=\"say-no-more\">2023-</span>09-27</time>\n <a href=\"https://pyfound.blogspot.com/2023/09/python-developers-survey-numbers-for.html\">Python
         Developers Survey Numbers for 2022!</a></li>\n                                \n
-        \                               <li>\n<time datetime=\"2023-09-19T11:21:00.000001+00:00\"><span
-        class=\"say-no-more\">2023-</span>09-19</time>\n <a href=\"https://pythoninsider.blogspot.com/2023/09/python-3120-release-candidate-3-now.html\">Python
-        3.12.0 release candidate 3 now available</a></li>\n                                \n
         \                           </ul>\n                        </div><!-- end
         .shrubbery -->\n\n                    </div>\n\n                    <div class=\"medium-widget
         event-widget last\">\n                        \n                        <div
@@ -395,15 +395,11 @@ interactions:
         title=\"More Events\">More</a></p>\n                            \n                            <ul
         class=\"menu\">\n                                \n                                \n
         \                               \n                                <li>\n<time
-        datetime=\"2023-10-18T05:15:00+00:00\"><span class=\"say-no-more\">2023-</span>10-18</time>\n
-        <a href=\"/events/python-user-group/1635/\">The When of Python, and Dependency
-        Injection Principle</a></li>\n                                \n                                \n
-        \                               \n                                <li>\n<time
-        datetime=\"2023-10-21T00:00:00+00:00\"><span class=\"say-no-more\">2023-</span>10-21</time>\n
-        <a href=\"/events/python-events/1637/\">EduPy 2023</a></li>\n                                \n
-        \                               \n                                \n                                <li>\n<time
         datetime=\"2023-10-21T00:00:00+00:00\"><span class=\"say-no-more\">2023-</span>10-21</time>\n
         <a href=\"/events/python-events/1638/\">PyDay Cali 2023</a></li>\n                                \n
+        \                               \n                                \n                                <li>\n<time
+        datetime=\"2023-10-21T00:00:00+00:00\"><span class=\"say-no-more\">2023-</span>10-21</time>\n
+        <a href=\"/events/python-events/1637/\">EduPy 2023</a></li>\n                                \n
         \                               \n                                \n                                <li>\n<time
         datetime=\"2023-10-22T00:00:00+00:00\"><span class=\"say-no-more\">2023-</span>10-22</time>\n
         <a href=\"/events/python-events/1640/\">TOUFU - Parent-Child Python Programming
@@ -411,6 +407,9 @@ interactions:
         \                               \n                                <li>\n<time
         datetime=\"2023-10-26T00:00:00+00:00\"><span class=\"say-no-more\">2023-</span>10-26</time>\n
         <a href=\"/events/python-events/1584/\">PackagingCon 2023</a></li>\n                                \n
+        \                               \n                                \n                                <li>\n<time
+        datetime=\"2023-10-27T00:00:00+00:00\"><span class=\"say-no-more\">2023-</span>10-27</time>\n
+        <a href=\"/events/python-events/1510/\">PyCon APAC 2023</a></li>\n                                \n
         \                               \n                            </ul>\n                        </div>\n\n
         \                   </div>\n\n                </div>\n\n                <div
         class=\"row\">\n\n                    <div class=\"medium-widget success-stories-widget\">\n
@@ -419,26 +418,26 @@ interactions:
         aria-hidden=\"true\" class=\"icon-success-stories\"></span>Success Stories</h2>\n
         \                           <p class=\"give-me-more\"><a href=\"/success-stories/\"
         title=\"More Success Stories\">More</a></p>\n\n                            \n
-        \                           <div class=\"success-story-item\" id=\"success-story-930\">\n\n
+        \                           <div class=\"success-story-item\" id=\"success-story-932\">\n\n
         \                           <blockquote>\n                                <a
-        href=\"/success-stories/python-for-financial-machine-learning-at-union-investment/\">Python
-        and its broad variety of libraries are very well suited to develop customized
-        machine learning tools which tackle the complex challenges posed by financial
-        time series.</a>\n                            </blockquote>\n\n                            <table
+        href=\"/success-stories/abridging-clinical-conversations-using-python/\">Python
+        powers major aspects of Abridge\u2019s ML lifecycle, including data annotation,
+        \ research and experimentation, and ML model deployment to production.</a>\n
+        \                           </blockquote>\n\n                            <table
         cellpadding=\"0\" cellspacing=\"0\" border=\"0\" width=\"100%\" class=\"quote-from\">\n
         \                               <tbody>\n                                    <tr>\n
         \                                       \n                                        <td><p><a
-        href=\"/success-stories/python-for-financial-machine-learning-at-union-investment/\">Python
-        for Financial Machine Learning at Union Investment</a> <em>by Dr. Christian
-        Mandery and Nikolas Gerlich</em></p></td>\n                                    </tr>\n
-        \                               </tbody>\n                            </table>\n
-        \                           </div>\n                            \n\n                        </div><!--
-        end .shrubbery -->\n\n                    </div>\n\n                    <div
-        class=\"medium-widget applications-widget last\">\n                        <div
-        class=\"shrubbery\">\n                            <h2 class=\"widget-title\"><span
-        aria-hidden=\"true\" class=\"icon-python\"></span>Use Python for&hellip;</h2>\r\n<p
-        class=\"give-me-more\"><a href=\"/about/apps\" title=\"More Applications\">More</a></p>\r\n\r\n<ul
-        class=\"menu\">\r\n    <li><b>Web Development</b>:\r\n        <span class=\"tag-wrapper\"><a
+        href=\"/success-stories/abridging-clinical-conversations-using-python/\">Abridging
+        clinical conversations using Python</a> <em>by Nimshi Venkat and Sandeep Konam</em></p></td>\n
+        \                                   </tr>\n                                </tbody>\n
+        \                           </table>\n                            </div>\n
+        \                           \n\n                        </div><!-- end .shrubbery
+        -->\n\n                    </div>\n\n                    <div class=\"medium-widget
+        applications-widget last\">\n                        <div class=\"shrubbery\">\n
+        \                           <h2 class=\"widget-title\"><span aria-hidden=\"true\"
+        class=\"icon-python\"></span>Use Python for&hellip;</h2>\r\n<p class=\"give-me-more\"><a
+        href=\"/about/apps\" title=\"More Applications\">More</a></p>\r\n\r\n<ul class=\"menu\">\r\n
+        \   <li><b>Web Development</b>:\r\n        <span class=\"tag-wrapper\"><a
         class=\"tag\" href=\"http://www.djangoproject.com/\">Django</a>, <a class=\"tag\"
         href=\"http://www.pylonsproject.org/\">Pyramid</a>, <a class=\"tag\" href=\"http://bottlepy.org\">Bottle</a>,
         <a class=\"tag\" href=\"http://tornadoweb.org\">Tornado</a>, <a href=\"http://flask.pocoo.org/\"
@@ -634,15 +633,21 @@ interactions:
       Accept-Ranges:
       - bytes
       Age:
-      - '2287'
+      - '3286'
       Connection:
       - keep-alive
       Content-Length:
-      - '50080'
+      - '49973'
       Content-Type:
       - text/html; charset=utf-8
       Date:
-      - Tue, 17 Oct 2023 10:44:08 GMT
+      - Wed, 18 Oct 2023 09:01:24 GMT
+      Nel:
+      - '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}'
+      Report-To:
+      - '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697616397&sid=67ff5de4-ad2b-4112-9289-cf96be89efed&s=XMRZ0%2FsFrkSmqIy8cqPgiZX%2F0NiZfxhnhCELmJldclg%3D"}]}'
+      Reporting-Endpoints:
+      - heroku-nel=https://nel.heroku.com/reports?ts=1697616397&sid=67ff5de4-ad2b-4112-9289-cf96be89efed&s=XMRZ0%2FsFrkSmqIy8cqPgiZX%2F0NiZfxhnhCELmJldclg%3D
       Server:
       - nginx
       Strict-Transport-Security:
@@ -652,15 +657,15 @@ interactions:
       Via:
       - 1.1 vegur, 1.1 varnish, 1.1 varnish
       X-Cache:
-      - HIT, HIT
+      - MISS, HIT
       X-Cache-Hits:
-      - 4, 5
+      - 0, 11
       X-Frame-Options:
       - SAMEORIGIN
       X-Served-By:
-      - cache-iad-kiad7000025-IAD, cache-fra-etou8220046-FRA
+      - cache-iad-kiad7000025-IAD, cache-fra-etou8220026-FRA
       X-Timer:
-      - S1697539449.529853,VS0,VE0
+      - S1697619684.040137,VS0,VE0
     status:
       code: 200
       message: OK

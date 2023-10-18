@@ -46,7 +46,7 @@ class Authorizer_Robot(Authorizer):
         while robot != "y" and robot != "n":
             robot = input("Are you a robot (y/n) ?").lower()
         self.authorized = robot == "n"
-        
+
     def is_authorized(self) -> bool:
         return self.authorized
 
@@ -54,7 +54,7 @@ class PaymentProcessor:
 
     def __init__(self, authorizer: Authorizer):
         self.authorizer = authorizer
-    
+
     def pay(self, order):
         self.authorizer.authorize()
         if not self.authorizer.is_authorized():
